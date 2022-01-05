@@ -1,0 +1,30 @@
+{
+  "name": "millisock-api",
+  "version": "1.0.0",
+  "description": "Backend API for chester.millisock.com",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "dev": "ts-node-dev src/index.ts",
+    "start": "node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "Chester Millisock Jr",
+  "license": "ISC",
+  "dependencies": {
+    "@types/nodemailer": "^6.4.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "nodemailer": "^6.7.2"
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.1",
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.8",
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
+    "@typescript-eslint/parser": "^5.9.0",
+    "eslint": "^8.6.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.4"
+  }
+}
